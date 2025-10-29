@@ -1,0 +1,341 @@
+//EXPERIMENT NO.1(A)//
+Write a program for basic html elements.
+<!DOCTYPE html>
+<html>
+<head>
+<title>HARSH</title>
+</head>
+<body>
+<body background=inception-background.jpg
+<h1>HARSH html</h1>
+<p>web page</p>
+<form>
+<label for="name">name:</label><br>
+<input type="text" id="fname" name="name"><br>
+<label for="password">password:</label><br>
+<input type="password">
+<table height="100px"border="5"width="100px" cen>
+<a href="/home/computer/Desktop/exp.jpeg">Open Report</a>
+<tr>
+<th>Company</th>
+<th>Contact</th>
+<th>Country</th>
+</tr>
+<tr>
+<td>FutureCoders</td>
+<td>Harsh khanvilkar</td>
+<td>Mumbai</td>
+</tr>
+<tr>
+<td>Commercial Bonenza</td>
+<td>Ankit Pal</td>
+<td>India</td>
+</tr>
+</table> </form>
+</body>
+</html>
+
+
+//EXPERIMENT 1B//
+AIM : WRITE A PROGRAM FOR BASIC HTML ELEMENTS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Article Example</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Header Section -->
+<header>
+<h1>Welcome to My Blog</h1>     
+</header>
+<!-- Article Section -->
+<article>
+<h2>How to Make Delicious Pancakes</h2>
+<p>If you're a pancake lover, you'll enjoy this easy recipe for making fluffy and delicious pancakes.</p>
+<h3>Ingredients:</h3>
+<ul>
+<li>1 cup all-purpose flour</li>
+<li>2 tablespoons sugar</li>
+<li>1 teaspoon baking powder</li>
+<li>1/2 teaspoon baking soda</li>
+<li>1/4 teaspoon salt</li>
+<li>1 cup buttermilk</li>
+<li>1 large egg</li>        
+</ul>
+<h3>Instructions:</h3>
+<ol>
+<li>In a large mixing bowl, whisk together the flour, sugar, baking powder, baking soda, and salt.</li>
+<li>In a separate bowl, whisk together the buttermilk, egg, and melted butter.</li>
+<li>Add the wet ingredients to the dry ingredients and stir until just combined.</li>             
+<li>Heat a non-stick skillet or griddle over medium heat and lightly grease with butter or oil.</li>
+<li>Pour 1/4 cup of the pancake batter onto the skillet for each pancake.</li>
+<li>Cook until bubbles form on the surface and the edges look set, then flip and cook the other side until golden brown.</li>
+<li>Serve warm with your favorite toppings such as maple syrup, fresh berries, or whipped cream.</li>
+</ol>
+</article>
+<!-- Footer Section -->
+<footer>
+<p>Published on January 19, 2025 by Harsh Khanvilkar</p>
+</footer>
+</body> 
+</html>
+
+
+//EXPERIMENT 1C//
+AIM:-Write a program for basic HTML element.
+<!DOCTYPE html>
+<html> <head>
+<title>HTML Table with TableHeaders (th)</title>
+</head>
+<body>
+<h1>HTML Table with Table Headers</h1>
+<table border="1"><tr>
+<th>Name</th>
+<th>Age</th>
+<th>City</th>
+</tr>
+<tr>
+<td>Clark Kent</td> <td>30</td>
+<td>Metropolis</td>
+</tr>
+<tr>
+<td>Tom Cruise</td>
+<td>28</td>
+<td>Metropolis</td>
+</tr>
+<tr>
+<td>Arthur Morgan</td>
+<td>35</td>
+<td>Metropolis</td>
+</tr>
+</table>
+</body>
+</html>
+
+
+//EXPERIMENT 1D//
+AIM:-Write a program for basic HTML element.
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> HTML Table with Rowspan and Colspan </title>
+    </head>
+    <body>
+        <h1>HTML Table with Rowspan and Colspan </h1>
+        <table border="1">
+        <tr>
+            <th>Product</th>
+            <th colspan="2">Price</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Laptop</td>
+            <td>Brand</td>
+            <td>$800</td>
+        </tr>
+        <tr>
+            <td>Brand A</td>
+            <td>$900</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Phone</td>
+            <td>Brand B</td>
+            <td>$300</td>
+        </tr>
+        <tr>
+            <td>Brand C</td>
+            <td>$250</td>
+        </tr>
+        <tr>
+            <td>Brand D</td>
+            <td>$350</td>
+        </tr>
+        </table>     
+</body>
+</html>
+
+
+
+//EXPERIMENT 1E//  
+AIM:-Write a program for basic HTML element. 
+ 
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title> HTML List Elements</title> 
+</head>  
+< body> 
+<h1>html List Elements</h1> 
+<!--Unordered List (Bullet Points ) --> 
+ <h2>Unordered List (Bullet Points )</h2> <ul> 
+<li>item 1</li>  
+<li>item 2</li>  
+<li>item 3</li> 
+</ul> 
+<!--Ordered List (Numbered list)-->  
+<h2>ordered List (Numbered list )</h2> <ol> 
+<li>First item</li> 
+<li> Second item</li> 
+<li>Third item</li> 
+</ol> 
+<!--Defination list (Descripton list) --> 
+ <h2>Defination list (Descripton list)</h2> <dl> 
+<dt>Term 1</dt> 
+<dd>Description for Term 1</dd> 
+ <dt>Term 2</dt> 
+<dd>Description for Term 2</dd>  
+<dt>Term 3</dt> 
+<dd>Description for Term 3</dd> 
+</dl> 
+</body> 
+</html>
+
+
+//EXPERIMENT 1F//
+AIM:-Write a program for basic HTML element.
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML FORM ELEMENTS</title>
+    </head>
+    <body>
+        <h1>HTML FORM ELEMENTS</h1>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="'text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input tpye="email" id="email" name="email" required>
+            <br>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>             
+            <label for="male">Female</label>
+            <br>
+            <label>Languages:</label>
+            <input type="checkbox" id="english" name="languages" value="english">
+            <label for="english">English</label>
+            <input type="checkbox" id="spanish" name="languages" value="spanish">
+            <label for="spanish">Spanish</label>
+            <br>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="australia">Australia</option>
+            </select>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="messsage" rows="'4" cols="30" required></textarea>
+            <br>
+            <label>Single</label>
+            <input type="radio" id="married" name="status" value="married">
+            <label>married:</label>
+            <br>
+            <input type="single" id="css" name="status" value="single" checked="checked">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
+
+
+
+//EXPERIMENT NO: 01 (I)//  
+<!DOCTYPE html> 
+<html>
+<head>
+<title>The video element</title> 
+</head> 
+<body> 
+<h1>THE VIDEO ELEMENT<h1> 
+<p>Video:</p> 
+<video width="320" height="240" controls> 
+<source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">         
+Your browser does not support the video tag. 
+</video> 
+ 
+</body> 
+</html> 
+
+
+
+//EXPERIMENT NO: 01 (J)//  
+<!DOCTYPE html>
+<html>
+<head>
+<title>THE AUDIO ELEMENT</title> 
+</head> 
+<body> 
+<h1>THE AUDIO ELEMENT<h1> 
+<h3>Multimedia Example</h3> 
+<p>Audio:</p> 
+<audio controls> 
+<source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">     
+</audio> 
+ 
+</body> 
+</html> 
+
+
+
+//EXPERIMENT NO: 01 (J1)//
+<!DOCTYPE html> 
+
+<head> <style>
+city{ 
+background-color:red; 
+color:white; 
+border:2px solid black; 
+margin:20px; 
+padding:20px 
+} 
+</style> 
+</head> 
+ 
+<body> 
+<div class = "city"> 
+<h2>New Delhi</h2> 
+<p>New Delhi is the capital of India</p> 
+</div> 
+ 
+ 
+<div class = "city"> 
+<h2>Tokyo</h2> 
+<p>Tokyo is the capital of Japan</p> 
+</div> 
+</body> 
+ 
+</html> 
+
+
+
+
+//EXPERIMENT NO: 01 (J2) //
+ 
+<!DOCTYPE html> 
+<head> 
+<style> .note{ font-size:150%; color:red; } 
+</style> 
+</head> 
+ 
+<body> 
+<h1>NAME<span class="note">Important</span>Heading</h1> 
+<p>This is some <span class="note">Important</span>text.</p> 
+ 
+</body> 
+</html> 
+
+
+
+
+
+
+
+
+
+
