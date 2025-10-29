@@ -1,0 +1,418 @@
+Experiment No.2 
+//Exp2.1//
+
+<!DOCTYPE html> 
+<html> 
+<head>   
+<style>     
+a { 
+color: hotpink; 
+} 
+</style> 
+</head> 
+<body> 
+ 
+<h2>Style a link with a color</h2> 
+<p><b><a href="default.asp" target="_blank">This is a link</a></b></p> 
+ 
+</body> 
+</html> 
+ 
+
+ 
+//Exp2.2// 
+ 
+<!DOCTYPE html> 
+<html> 
+<head> <style> body { 
+  background-color: lightblue; 
+} h1 {   color: white;   text-align: center; 
+} p { 
+  font-family: verdana;   font-size: 20px; 
+} 
+</style> 
+</head> 
+<body> 
+<h1>My First CSS Example</h1> 
+<p>This is a paragraph.</p> 
+</body> 
+
+
+
+//Exp2.3 //
+ 
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <title>External Style Sheet Example</title> 
+  <link rel="stylesheet" type="text/css" href="C:/home/computer/Desktop/ansh/styles.css"> </head> 
+<body> 
+  <h1>Welcome to My Website</h1> 
+  <p>This is a sample paragraph. The font is specified in the external style sheet.</p> 
+</body> 
+</html> 
+ 
+CSS File: body { 
+  font-family: Verdana; 
+  font-size: 20px; } 
+ 
+ 
+
+//Exp2.4//
+ 
+body { 
+  font-family: Arial, sans-serif;   background-color: lightblue;   color: #333; 
+} 
+ 
+h1 {   color: navy;   margin-left: 20px; 
+} 
+ 
+p { 
+  line-height: 1.6; 
+} 
+ 
+
+//Exp2.5// 
+ 
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <title>Internal Style Sheet Example</title> 
+  <style> 
+    /* Internal style sheet */ 
+     
+    /* Styling for the h1 element */ 
+    h1 {       color: #0099ff;       text-align: center; 
+    } 
+ 
+    /* Styling for the p element */ 
+    p {       font-size: 18px;       color: #333; 
+      font-family: Arial, sans-serif;       text-align: center; 
+    } 
+  </style> 
+</head> 
+<body> 
+ 
+  <h1>Hello, this is an internal style sheet example!</h1> 
+  <p>This paragraph should be styled using the internal style sheet.</p></body> </html>
+
+
+//Exp2.6 //
+ 
+<!DOCTYPE html> 
+<html> <head> 
+  <title>Simple H1 Example</title> 
+</head> 
+<body> 
+  <h1>Hello, this is a heading!</h1> 
+</body> 
+</html> 
+ 
+
+ 
+//Exp2.7 //
+ 
+<!DOCTYPE html> 
+<html> <head> 
+  <title>H1 and P Example</title> 
+</head> 
+<body> 
+  <h1>This is a heading</h1> 
+  <p>This is a paragraph below the heading.</p> 
+</body> 
+</html> 
+ 
+ 
+ 
+ 
+//Exp2.8//
+ 
+<!DOCTYPE html> 
+<html> 
+<head> <style> p {   text-align: center;   color: red; } 
+</style> 
+</head> 
+<body> 
+<p>Every paragraph will be affected by the style.</p> 
+<p id="para1">Me too!</p> 
+<p>And me!</p> 
+</body> 
+</html> 
+ 
+ 
+//Exp2.9//
+ 
+<!DOCTYPE html> 
+<html> 
+<head> 
+<style> #para1 {   text-align: center;   color: red; } 
+</style> 
+</head> 
+<body> 
+<p id="para1">Hello World!</p> 
+<p>This paragraph is not affected by the style.</p> 
+</body> 
+</html> 
+
+ 
+//Exp2.10//
+ 
+<!DOCTYPE html> 
+<html> 
+<head> 
+<style> .center {   text-align: center;   color: red; } 
+</style> 
+</head> 
+<body> 
+<h1 class="center">Red and center-aligned heading</h1> 
+<p class="center">Red and center-aligned paragraph.</p> 
+</body> 
+</html 
+ 
+
+ 
+ 
+//Exp2.11// 
+<!DOCTYPE html> 
+<html> 
+<head> <style> 
+p.center {   text-align: center;   color: red; } 
+</style> 
+</head> 
+<body> 
+<h1 class="center">This heading will not be affected</h1> 
+<p class="center">This paragraph will be red and center-aligned.</p> </body> 
+</html> 
+ 
+ 
+ 
+//Exp2.12// 
+<!DOCTYPE html> 
+<html> 
+<head> 
+<style> * {   text-align: center;   color: blue; } 
+</style> 
+</head> 
+<body> 
+<h1>Hello world!</h1> 
+<p>Every element on the page will be affected by the style.</p> 
+<p id="para1">Me too!</p> 
+<p>And me!</p> 
+</body> 
+</html> 
+ 
+ 
+ 
+//Exp2.13// 
+ 
+<!DOCTYPE 
+html> <html> 
+<head> <style> h1, h2, p {   text-align: center;   color: red; } 
+</style> 
+</head> 
+<body> 
+<h1>Hello World!</h1> 
+<h2>Smaller heading!</h2> 
+<p>This is a paragraph.</p> 
+</body> 
+</html> 
+ 
+
+//Exp2.14// 
+<!DOCTYPE html> 
+<html> 
+<head> <style> table, td, th {   border: 1px solid black; 
+} 
+ 
+table { 
+  border-collapse: collapse;   width: 100%; 
+} 
+ 
+th {   height: 70px; 
+} 
+ 
+td {   padding: 15px; 
+  text-align: center;} 
+ 
+th {   padding: 15px;   text-align: left; 
+} 
+</style> 
+</head> 
+<body> 
+ 
+<h2>The width and height Properties</h2> 
+<p>Set the width of the table, and the height of the table header row:</p> 
+ 
+<table> 
+  <tr> 
+    <th>Firstname</th> 
+    <th>Lastname</th> 
+    <th>Savings</th> 
+  </tr> 
+  <tr> 
+    <td>Peter</td> 
+    <td>Griffin</td> 
+    <td>$100</td> 
+  </tr> 
+  <tr> 
+    <td>Lois</td> 
+    <td>Griffin</td> 
+    <td>$150</td> 
+  </tr> 
+  <tr> 
+    <td>Joe</td> 
+    <td>Swanson</td> 
+    <td>$300</td> 
+  </tr> 
+  <tr> 
+    <td>Cleveland</td> 
+    <td>Brown</td> 
+    <td>$250</td> 
+  </tr> 
+</table> 
+ 
+</body> 
+</html> 
+ 
+ 
+
+//Exp2.15// 
+<!DOCTYPE html> 
+<html> 
+<head> <style> body { 
+  background-image: url("paper.gif"); 
+} 
+ 
+input {   width: 100%; 
+} 
+</style> 
+</head> 
+<body> 
+<h2>A full-width input field</h2> 
+<form> 
+  <label for="fname">First Name</label> 
+  <input type="text" id="fname" name="fname"> 
+</form> 
+</body> 
+</html> 
+
+ 
+//Exp2.16// 
+ 
+<!DOCTYPE html> 
+<html> 
+<head> <style> 
+p.dotted { border-style: dotted; } 
+p.dashed { border-style: dashed; } 
+p.solid { border-style: solid; } 
+p.double { border-style: double; } 
+p.groove { border-style: groove; } 
+p.ridge { border-style: ridge; } 
+p.inset { border-style: inset; } 
+p.outset { border-style: outset; } 
+p.none { border-style: none; } 
+p.hidden { border-style: hidden; } 
+p.mix { border-style: dotted dashed solid double; } 
+</style> 
+</head> 
+<body> 
+ 
+<h2>The border-style Property</h2> 
+<p>This property specifies what kind of border to display:</p> 
+<p class="dotted">A dotted border.</p> 
+<p class="dashed">A dashed border.</p> 
+<p class="solid">A solid border.</p> 
+<p class="double">A double border.</p> 
+<p class="groove">A groove border.</p> 
+<p class="ridge">A ridge border.</p> 
+<p class="inset">An inset border.</p> 
+<p class="outset">An outset border.</p> 
+<p class="none">No border.</p> 
+<p class="hidden">A hidden border.</p> 
+<p class="mix">A mixed border.</p> 
+ 
+</body> 
+</html> 
+ 
+ 
+ 
+//Exp2.17// 
+<!DOCTYPE html> 
+<html> 
+<head> <style> p.one {   border-style: solid;   border-width: 5px; 
+} 
+p.two {   border-style: solid;   border-width: medium; 
+} 
+p.three {   border-style: dotted;   border-width: 2px; 
+} 
+p.four {   border-style: dotted;   border-width: thick; 
+} 
+p.five {   border-style: double;   border-width: 15px;   border-color: red; 
+} 
+p.six {   border-style: double;   border-width: thick; 
+} 
+</style> 
+</head> 
+<body> 
+ 
+<h2>The border-width Property</h2> 
+<p>This property specifies the width of the four borders:</p> <p class="one">Some text.</p> 
+<p class="two">Some text.</p> 
+<p class="three">Some text.</p> 
+<p class="four">Some text.</p> 
+<p class="five">Some text.</p> 
+<p class="six">Some text.</p> 
+ 
+<p><b>Note:</b> The "border-width" property does not work if it is used alone. 
+Always specify the "border-style" property to set the borders first.</p> 
+ 
+</body> 
+</html> 
+
+
+///Exp2.18/// 
+ 
+<!DOCTYPE html> 
+<html> 
+<head>   <style>     a { 
+      color: hotpink; 
+    } 
+  </style> 
+</head> 
+<body> 
+ 
+<h2>Style a link with a color</h2> 
+<p><b><a href="default.asp" target="_blank">This is a link</a></b></p> 
+</body> 
+</html> 
+ 
+
+ 
+//Exp2.19//
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <style> 
+    /* unvisited link */ 
+    a:link {       color: red; 
+    } 
+ 
+    /* visited link */     a:visited {       color: green;    }     /* mouse over link */     a:hover { 
+      color: hotpink; 
+    } 
+    /* selected link */     a:active {       color: blue;    } 
+  </style> 
+</head> 
+<body> 
+<h2>Styling a link depending on state</h2> 
+<p><a href="default.asp" target="_blank">This is a link</a></p> 
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p> 
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p> 
+</body> 
+</html>
+ 
+ 
+ 
+ 
+
+ 
