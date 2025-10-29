@@ -1,0 +1,171 @@
+To perform for loop in JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript For Loop</h2>
+<p id="demo"></p>
+<script>
+const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"]; let text = "";
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
+document.getElementById("demo").innerHTML = text; </script>
+</body> </html> 
+
+//To perform while loop in JavaScript//
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript While Loop</h2>
+<p id="demo"></p>
+<script> let text = ""; let i = 0;
+while (i < 10) {   text += "<br>The number is " + i;
+  i++;
+}
+document.getElementById("demo").innerHTML = text; </script>
+</body> </html> 
+
+
+//To perform math operations with switch case//
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Math Operations with Switch Case</title>
+  <style>     body {
+      font-family: Arial, sans-serif;       
+      padding: 20px;       
+      max-width: 450px;
+      margin: auto;
+    }
+    input, select, button {       padding: 10px;       width: 100%;
+      margin: 10px 0;
+    }
+    #result {       margin-top: 20px;       background-color: #f0f0f0;       padding: 12px;       border-radius: 8px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+<h2>Choose Operation</h2>
+<label>Enter a number:</label>
+<input type="number" id="num" />
+<label>Select Operation:</label>
+<select id="operation">
+  <option value="">--Choose--</option>
+  <option value="prime">Check Prime</option>
+  <option value="factorial">Find Factorial</option>
+  <option value="fibonacci">Fibonacci Series</option>
+</select>
+<button onclick="processNumber()">Submit</button>
+<div id="result"></div>
+<script> function processNumber() {   const num = parseInt(document.getElementById("num").value);   const operation = document.getElementById("operation").value;   const resultDiv = document.getElementById("result");   if (isNaN(num) || num < 0) {
+    resultDiv.innerHTML = "Please enter a valid non-negative number.";
+    resultDiv.style.display = "block";
+    return;   }   let output = "";   switch (operation) {     case "prime":       let isPrime = true;       if (num < 2) {         isPrime = false;       } else {
+        for (let i = 2; i <= Math.sqrt(num); i++) {           if (num % i === 0) {             isPrime = false;             break;
+          }  }  }
+      output = `<strong>${num}</strong> is ${isPrime ? "a Prime" : "NOT a Prime"} number.`;       break;     case "factorial":       let factorial = 1;
+      for (let i = 1; i <= num; i++) {
+        factorial *= i;
+      }
+      output = `Factorial of <strong>${num}</strong> is <strong>${factorial}</strong>.`;       break;     case "fibonacci":       let fibSeries = "";       let a = 0, b = 1;
+      for (let i = 0; i < num; i++) {         fibSeries += a + " ";         let temp = a + b;
+a	= b;
+b	= temp;
+      }
+      output = `First <strong>${num}</strong> numbers of Fibonacci series:<br><strong>${fibSeries}</strong>`;       break;     default:
+      output = "Invalid operation selected.";
+  }
+  resultDiv.innerHTML = output;
+  resultDiv.style.display = "block";
+}
+</script>
+</body>
+</html>
+
+
+//To perform math operation with arrow fumctions//
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Math Operations with Arrow Function</title>
+  <style>     body {
+      font-family: Arial, sans-serif;       padding: 20px;       max-width: 500px;
+      margin: auto;
+    }
+    input, label, button {       display: block;
+      margin: 10px 0;
+    }
+    #result {       margin-top: 20px;       background-color: #f0f0f0;       padding: 12px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+<h2>Math Operations</h2>
+<label>Enter a number:</label>
+<input type="number" id="inputNum" min="0" required />
+<label><input type="checkbox" id="chkPrime"> Check Prime</label>
+<label><input type="checkbox" id="chkFactorial"> Find Factorial</label>
+<label><input type="checkbox" id="chkFibonacci"> Fibonacci Series</label>
+<button onclick="processNumber()">Submit</button>
+<div id="result" style="display:none;"></div>
+<script>
+  const processNumber = () => {
+    const num = parseInt(document.getElementById("inputNum").value);     const resultDiv = document.getElementById("result");     const checkPrime = document.getElementById("chkPrime").checked;     const checkFactorial = document.getElementById("chkFactorial").checked;     const checkFibonacci = document.getElementById("chkFibonacci").checked;     if (isNaN(num) || num < 0) {
+      resultDiv.innerHTML = "Please enter a valid non-negative number.";       resultDiv.style.display = "block";       return;     }
+    let output = "";     if (checkPrime) {       let isPrime = true;       if (num < 2) {         isPrime = false;
+      } else {
+        for (let i = 2; i <= Math.sqrt(num); i++) {           if (num % i === 0) {             isPrime = false;
+            break;           }      }    }
+      output += `<strong>${num}</strong> is ${isPrime ? "a Prime" : "NOT a Prime"} number.<br>`;
+    }
+    if (checkFactorial) {       let factorial = 1;
+      for (let i = 1; i <= num; i++) {
+        factorial *= i;
+      }
+      output += `Factorial of <strong>${num}</strong> is <strong>${factorial}</strong>.<br>`;
+    }
+    if (checkFibonacci) {       let fibSeries = "";       let a = 0, b = 1;
+      for (let i = 0; i < num; i++) {         fibSeries += a + " ";         let temp = a + b;
+a	= b;
+b	= temp;
+      }
+      output += `First <strong>${num}</strong> numbers of Fibonacci series:<br><strong>${fibSeries}</strong>`;
+    }
+    if (!checkPrime && !checkFactorial && !checkFibonacci) {       output = "Please select at least one operation.";
+    }
+    resultDiv.innerHTML = output;     resultDiv.style.display = "block";
+ };
+</script>
+</body> </html>
+
+
+//To perform for in over arrays//
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Arrays</h1>
+<h2>For In Loops</h2>
+<p id="demo"></p>
+<script>
+  const numbers = [45, 4, 9, 16, 25];   let txt = "";
+  for (let x in numbers) {
+    txt += numbers[x] + "<br>";
+  }
+  document.getElementById("demo").innerHTML = txt; </script>
+</body> </html>
+
+//To perform for of loop//
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript For Of Loop</h2>
+<p>The for of statement loops through the values of any iterable object:</p> <p id="demo"></p>
+<script>
+  const cars = ["BMW", "Volvo", "Mini"];   let text = "";
+  for (let x of cars) {     text += x + "<br>";
+  }
+  document.getElementById("demo").innerHTML = text; </script>
+</body> </html>
+
